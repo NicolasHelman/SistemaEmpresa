@@ -14,4 +14,8 @@
 <script src="<?php echo SERVERURL; ?>vistas/js/bootstrap-material-design.min.js" ></script>
 <script>$(document).ready(function() { $('body').bootstrapMaterialDesign(); });</script>
 
+<!-- Main js -->
 <script src="<?php echo SERVERURL; ?>vistas/js/main.js" ></script>
+
+<!-- Alerts js -->
+<script src="<?php echo SERVERURL; ?>vistas/js/alerts.js" ></script>
