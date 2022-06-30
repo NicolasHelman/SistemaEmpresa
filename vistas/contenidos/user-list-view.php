@@ -1,3 +1,12 @@
+<?php
+
+    if ($_SESSION['privilegio_spm'] != 1) {
+        echo $instanciaLoginControlador -> cerrar_sesion_controlador();
+        exit();
+    }
+
+?>
+
 <!-- Page header -->
 <div class="full-box page-header">
     <h3 class="text-left">
